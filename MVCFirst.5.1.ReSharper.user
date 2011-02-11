@@ -1,0 +1,69 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Home/f:Index.aspx" caret="515" fromTop="15" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Home/f:RsvpForm.aspx" caret="815" fromTop="21" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Controllers/f:HomeController.cs" caret="528" fromTop="9" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Home/f:Thanks.aspx" caret="563" fromTop="16" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Models/f:GuestResponse.cs" caret="27" fromTop="1" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/f:Web.config" caret="2980" fromTop="34" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Controllers/f:HomeController.cs" caret="405" fromTop="15" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Controllers/f:HomeController.cs" caret="381" fromTop="14" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Home/f:Index.aspx" caret="316" fromTop="11" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Home/f:Index.aspx" caret="598" fromTop="15" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Home/f:Index.aspx" caret="515" fromTop="15" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Models/f:GuestResponse.cs" caret="218" fromTop="13" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Models/f:GuestResponse.cs" caret="0" fromTop="0" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Home/f:RsvpForm.aspx" caret="298" fromTop="9" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Home/f:RsvpForm.aspx" caret="815" fromTop="21" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Controllers/f:HomeController.cs" caret="531" fromTop="18" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Home/f:Thanks.aspx" caret="42" fromTop="0" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/f:Web.config" caret="6916" fromTop="16" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Home/f:Thanks.aspx" caret="287" fromTop="11" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Home/f:Thanks.aspx" caret="554" fromTop="15" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/f:Web.config" caret="2980" fromTop="3" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files\NUnit 2.5.3\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="ActionResult`0" priority="0" />
+      <Item value="View`0" priority="1" />
+      <Item value="int" priority="0" />
+      <Item value="DateTime`0" priority="0" />
+      <Item value="ViewData" priority="1" />
+      <Item value="hour" priority="0" />
+      <Item value="return" priority="0" />
+      <Item value="GuestResponse" priority="0" />
+      <Item value="response" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="Hour" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Mvc.HttpVerbs">
+      <Item value="Put" priority="0" />
+      <Item value="Post" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

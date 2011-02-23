@@ -8,29 +8,34 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Home/f:Index.aspx" caret="515" fromTop="15" />
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Home/f:RsvpForm.aspx" caret="815" fromTop="21" />
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Controllers/f:HomeController.cs" caret="528" fromTop="9" />
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Home/f:Thanks.aspx" caret="563" fromTop="16" />
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Models/f:GuestResponse.cs" caret="27" fromTop="1" />
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/f:Web.config" caret="2980" fromTop="34" />
+      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Entities/f:Comment.cs" caret="0" fromTop="0" />
+      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Data/f:AppAutoConfigurration.cs" caret="472" fromTop="20" />
+      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Repositories/f:BlogRepository.cs" caret="297" fromTop="16" />
+      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Entities/f:Blog.cs" caret="297" fromTop="12" />
+      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Data/f:ISessionProvider.cs" caret="51" fromTop="3" />
+      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Data/f:SQLLIteSessionProvider.cs" caret="1186" fromTop="19" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/f:WinsorConfiguration.cs" caret="1224" fromTop="26" />
     </RecentFiles>
     <RecentEdits>
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Controllers/f:HomeController.cs" caret="405" fromTop="15" />
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Controllers/f:HomeController.cs" caret="381" fromTop="14" />
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Home/f:Index.aspx" caret="316" fromTop="11" />
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Home/f:Index.aspx" caret="598" fromTop="15" />
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Home/f:Index.aspx" caret="515" fromTop="15" />
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Models/f:GuestResponse.cs" caret="218" fromTop="13" />
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Models/f:GuestResponse.cs" caret="0" fromTop="0" />
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Home/f:RsvpForm.aspx" caret="298" fromTop="9" />
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Home/f:RsvpForm.aspx" caret="815" fromTop="21" />
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Controllers/f:HomeController.cs" caret="531" fromTop="18" />
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Home/f:Thanks.aspx" caret="42" fromTop="0" />
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/f:Web.config" caret="6916" fromTop="16" />
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Home/f:Thanks.aspx" caret="287" fromTop="11" />
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Home/f:Thanks.aspx" caret="554" fromTop="15" />
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/f:Web.config" caret="2980" fromTop="3" />
+      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Entities/f:Blog.cs" caret="298" fromTop="5" />
+      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Repositories/f:BlogRepository.cs" caret="351" fromTop="11" />
+      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Repositories/f:BlogRepository.cs" caret="195" fromTop="10" />
+      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Data/f:ISessionProvider.cs" caret="19" fromTop="1" />
+      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Data/f:SQLLIteSessionProvider.cs" caret="553" fromTop="12" />
+      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Data/f:SQLLIteSessionProvider.cs" caret="824" fromTop="19" />
+      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Data/f:AppAutoConfigurration.cs" caret="154" fromTop="9" />
+      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Data/f:AppAutoConfigurration.cs" caret="467" fromTop="18" />
+      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Data/f:AppAutoConfigurration.cs" caret="325" fromTop="14" />
+      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Data/f:SQLLIteSessionProvider.cs" caret="937" fromTop="7" />
+      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Data/f:SQLLIteSessionProvider.cs" caret="1699" fromTop="19" />
+      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Data/f:SQLLIteSessionProvider.cs" caret="351" fromTop="12" />
+      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Data/f:SQLLIteSessionProvider.cs" caret="1419" fromTop="18" />
+      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Data/f:SQLLIteSessionProvider.cs" caret="1186" fromTop="17" />
+      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Data/f:SQLLIteSessionProvider.cs" caret="0" fromTop="0" />
+      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Data/f:SQLLIteSessionProvider.cs" caret="1695" fromTop="22" />
+      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Data/f:SQLLIteSessionProvider.cs" caret="1390" fromTop="10" />
+      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Repositories/f:BlogRepository.cs" caret="298" fromTop="16" />
+      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Data/f:ISessionProvider.cs" caret="51" fromTop="3" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -47,13 +52,46 @@
     <ItemStatistics item="Default">
       <Item value="ActionResult`0" priority="0" />
       <Item value="View`0" priority="1" />
-      <Item value="int" priority="0" />
+      <Item value="int" priority="3" />
       <Item value="DateTime`0" priority="0" />
       <Item value="ViewData" priority="1" />
       <Item value="hour" priority="0" />
-      <Item value="return" priority="0" />
+      <Item value="return" priority="2" />
       <Item value="GuestResponse" priority="0" />
       <Item value="response" priority="0" />
+      <Item value="public" priority="7" />
+      <Item value="string" priority="3" />
+      <Item value="IEnumerable" priority="0" />
+      <Item value="void" priority="1" />
+      <Item value="Assert`0" priority="2" />
+      <Item value="new" priority="6" />
+      <Item value="object" priority="0" />
+      <Item value="BlogTest`0" priority="0" />
+      <Item value="var" priority="0" />
+      <Item value="Blog`0" priority="0" />
+      <Item value="Body" priority="1" />
+      <Item value="Title" priority="0" />
+      <Item value="blog" priority="1" />
+      <Item value="IList" priority="0" />
+      <Item value="List&lt;Comment&gt;" priority="0" />
+      <Item value="Comment" priority="0" />
+      <Item value="Author" priority="0" />
+      <Item value="this" priority="0" />
+      <Item value="session" priority="1" />
+      <Item value="SessionException`0" priority="0" />
+      <Item value="ISessionProvider`0" priority="1" />
+      <Item value="ISessionFactory`0" priority="0" />
+      <Item value="factory" priority="0" />
+      <Item value="dir" priority="1" />
+      <Item value="Path`0" priority="0" />
+      <Item value="SessionProviderTest`0" priority="0" />
+      <Item value="Blog" priority="0" />
+      <Item value="sqlLiteSessionProvider" priority="0" />
+      <Item value="IsessionProvider" priority="0" />
+      <Item value="Data" priority="1" />
+      <Item value="using" priority="0" />
+      <Item value="Core" priority="0" />
+      <Item value="sessionProvider" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.DateTime">
       <Item value="Now" priority="0" />
@@ -64,6 +102,30 @@
     <ItemStatistics item="Qualified:@System.Web.Mvc.HttpVerbs">
       <Item value="Put" priority="0" />
       <Item value="Post" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="IsNotNull`0" priority="1" />
+      <Item value="IsNotEmpty`0" priority="0" />
+      <Item value="AreEqual`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Core.Blog">
+      <Item value="Comments" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="Add`0" priority="0" />
+      <Item value="Count`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ISessionFactory">
+      <Item value="OpenSession`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.DirectoryInfo">
+      <Item value="Parent" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Path">
+      <Item value="Combine`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Core.Data.ISessionProvider">
+      <Item value="Session" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

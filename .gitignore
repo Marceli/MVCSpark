@@ -4,6 +4,8 @@ Temp
 _Resharper.*
 *.csproj.user
 *.resharper.user
+
+*.Resharper.user
 *.resharper
 *.suo
 *.cache

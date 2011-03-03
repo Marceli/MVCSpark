@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Core;
+using Core.Entities;
 using NUnit.Framework;
 
 namespace MVCFirstTest
@@ -19,8 +20,8 @@ namespace MVCFirstTest
 		public void CanCreateBlogWithComments()
 		{
 			var blog = new Blog {Body = "Body", Title = "Title"};
-			blog.Comments.Add(new Comment {Author="Author", Body="Body"});
-			Assert.AreEqual(1,blog.Comments.Count);
+			blog.AddComment(new Comment {Author="Author", Body="Body"});
+			Assert.AreEqual(1,blog.Comments.ToList().Count);
 		}
 	}
 }

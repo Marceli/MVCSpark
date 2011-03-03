@@ -1,15 +1,25 @@
-﻿using System;
+﻿
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
-namespace Core
+
+namespace Core.Entities
 {
-	public class Blog
+	public class Blog:IIdentityable
 	{
-		public int Id { get; internal set; }
-		public string Title { get; set; }
-		public string Body { get; set; }
-		public IList<Comment> Comments=new List<Comment>();
+		public virtual long Id { get; internal protected set; }
+		public virtual string Title { get; set; }
+		public virtual string Body { get; set; }
+		IList<Comment> comments=new List<Comment>();
+		public virtual IEnumerable<Comment> Comments
+		{
+			get { return comments; }
+			set { comments = (IList < Comment >) value; }
+		}
+		public virtual void AddComment(Comment comment)
+		{
+			comments.Add(comment);
+			comment.Blog = this;
+
+		}
 	}
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using NHibernate;
 
 namespace Core.Data
@@ -15,6 +16,7 @@ namespace Core.Data
 			try
 			{
 				_transaction = CurrentSession.BeginTransaction();
+				Debug.WriteLine("New Db Session");
 			}
 			catch { }
 		}

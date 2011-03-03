@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Configuration;
 using System.IO;
+using Core.Entities;
 using FluentNHibernate.Automapping;
 using FluentNHibernate.Cfg;
 using FluentNHibernate.Cfg.Db;
@@ -49,7 +51,8 @@ namespace Core.Data
 
 		private string GetDbFile()
 		{
-			return Path.Combine(GetDataBaseDirectoryPath(),"test.db");
+			var dbfile = ConfigurationManager.AppSettings["DBFile"];
+			return Path.Combine(GetDataBaseDirectoryPath(),dbfile);
 		}
 
 		public ISession Session
@@ -63,6 +66,29 @@ namespace Core.Data
 		    if (File.Exists(GetDbFile()))
 		        File.Delete(GetDbFile());
 		    new SchemaExport(config).Create(true, true);
+		}
+		public void Populate()
+		{
+			var session=this.Session;
+			using(var transaction = session.BeginTransaction())
+			{
+
+				for (int i = 0; i < 100; i++)
+				{
+					var blog = new Blog{Body = "Body" + i, Title = "Title" + i};
+					
+					for (int j = 0; j < 5; j++)
+					{
+						var comment = new Comment {Author = "Fredek" + j, Body = "Comment Body" + j, Blog = blog};
+						blog.AddComment(comment);
+					}
+					session.Save(blog);
+				}
+				transaction.Commit();
+
+			}
+			session.Close();
+
 		}
 	}
 }

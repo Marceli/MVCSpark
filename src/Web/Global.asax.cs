@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using Castle.Windsor;
+using Core.Data;
 
 namespace MVCFirst
 {
@@ -19,16 +22,21 @@ namespace MVCFirst
 			routes.MapRoute(
 				"Default", // Route name
 				"{controller}/{action}/{id}", // URL with parameters
-				new { controller = "Home", action = "Index", id = UrlParameter.Optional } // Parameter defaults
+				new { controller = "Blog", action = "Index", id = UrlParameter.Optional } // Parameter defaults
 			);
 
 		}
 
+		public WindsorContainer Container { get; private set; }
+
 		protected void Application_Start()
 		{
 			AreaRegistration.RegisterAllAreas();
-
 			RegisterRoutes(RouteTable.Routes);
+			Container = new WinsorConfiguration().GetContainer();
+			ControllerBuilder.Current.SetControllerFactory(new WindsorControllerFactory(Container));
+			var sessionProvider = Container.Resolve<ISessionProvider>();
+			sessionProvider.Populate();
 		}
 	}
 }

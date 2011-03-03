@@ -70,6 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BlogTest.cs" />
+    <Compile Include="Data\BlogRepositoryTest.cs" />
     <Compile Include="Data\SqlLiteSessionProviderTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WindsorConfigurationTest.cs" />
@@ -83,6 +84,9 @@
       <Project>{70CE68BE-B21D-4B0B-A4FB-021C49B0238A}</Project>
       <Name>MVCFirst</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

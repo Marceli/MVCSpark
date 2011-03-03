@@ -4,5 +4,6 @@ namespace Core.Data
 	public interface ISessionProvider
 	{
 		ISession Session { get; }
+		void Populate();
 	}
 }

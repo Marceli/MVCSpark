@@ -6,7 +6,7 @@ namespace Core.Entities
 {
 	public class Blog:IIdentityable
 	{
-		public virtual long Id { get; internal protected set; }
+		public virtual long Id { get; set; }
 		public virtual string Title { get; set; }
 		public virtual string Body { get; set; }
 		IList<Comment> comments=new List<Comment>();

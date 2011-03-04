@@ -29,10 +29,9 @@ namespace Core
 			session.SaveOrUpdate(entity);
 		}
 
-		public IList<T> GetAll()
+		public IEnumerable<T> GetAll()
 		{
-			var query = from entity in session.Query<T>() select entity;
-			return query.ToList();
+			return from entity in session.Query<T>() select entity;
 		}
 	}
 }

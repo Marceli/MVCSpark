@@ -1,4 +1,4 @@
-<%@ Control Language="C#" Inherits="System.Web.Mvc.ViewUserControl<Core.Entities.Comment>" %>
+<%@ Control Language="C#" Inherits="ViewUserControl<Comment>" %>
 <p>
 <%=Html.LabelFor(m=>m.Body)%>
 </p>

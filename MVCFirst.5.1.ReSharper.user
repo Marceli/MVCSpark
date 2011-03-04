@@ -26,30 +26,22 @@
       <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Content/f:Site.css" caret="0" fromTop="0" />
       <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Entities/f:IIdentityable.cs" caret="81" fromTop="6" />
       <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Entities/f:Blog.cs" caret="100" fromTop="6" />
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Blog/f:Index.aspx" caret="460" fromTop="17" />
-      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Repositories/f:Repository.cs" caret="0" fromTop="0" />
       <File id="E1EC1336-BF15-4EE6-94D4-2F05B86B53AC/d:Data/f:BlogRepositoryTest.cs" caret="1772" fromTop="13" />
-      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Repositories/f:BlogRepository.cs" caret="360" fromTop="18" />
       <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Entities/f:Comment.cs" caret="143" fromTop="5" />
       <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/f:Global.asax.cs" caret="807" fromTop="23" />
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Controllers/f:BlogController.cs" caret="679" fromTop="19" />
       <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Blog/f:Details.aspx" caret="442" fromTop="16" />
       <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Data/f:SQLLIteSessionProvider.cs" caret="1836" fromTop="63" />
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Blog/f:CommentVew.ascx" caret="183" fromTop="7" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Blog/f:CommentVew.ascx" caret="52" fromTop="0" />
+      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Repositories/f:BlogRepository.cs" caret="360" fromTop="20" />
+      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Repositories/f:Repository.cs" caret="272" fromTop="14" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Blog/f:BlogListView.ascx" caret="180" fromTop="6" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Blog/f:Index.aspx" caret="313" fromTop="9" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Controllers/f:BlogController.cs" caret="818" fromTop="9" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Blog/f:Create.aspx" caret="565" fromTop="18" />
     </RecentFiles>
     <RecentEdits>
-      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Repositories/f:BlogRepository.cs" caret="226" fromTop="13" />
-      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Entities/f:Blog.cs" caret="101" fromTop="6" />
-      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Repositories/f:BlogRepository.cs" caret="464" fromTop="5" />
-      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Repositories/f:Repository.cs" caret="650" fromTop="30" />
-      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Entities/f:IIdentityable.cs" caret="80" fromTop="6" />
-      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Repositories/f:Repository.cs" caret="155" fromTop="8" />
-      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Entities/f:IIdentityable.cs" caret="13" fromTop="0" />
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Blog/f:Details.aspx" caret="33" fromTop="0" />
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Controllers/f:BlogController.cs" caret="687" fromTop="23" />
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Blog/f:Index.aspx" caret="482" fromTop="21" />
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Blog/f:Index.aspx" caret="437" fromTop="20" />
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Blog/f:Index.aspx" caret="378" fromTop="14" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Blog/f:Index.aspx" caret="424" fromTop="21" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Blog/f:Index.aspx" caret="424" fromTop="20" />
       <File id="E1EC1336-BF15-4EE6-94D4-2F05B86B53AC/d:Data/f:BlogRepositoryTest.cs" caret="2003" fromTop="23" />
       <File id="E1EC1336-BF15-4EE6-94D4-2F05B86B53AC/d:Data/f:BlogRepositoryTest.cs" caret="1487" fromTop="9" />
       <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Repositories/f:Repository.cs" caret="440" fromTop="16" />
@@ -66,8 +58,18 @@
       <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/f:Global.asax.cs" caret="678" fromTop="18" />
       <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Blog/f:Details.aspx" caret="521" fromTop="21" />
       <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Blog/f:Details.aspx" caret="471" fromTop="18" />
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Blog/f:CommentVew.ascx" caret="98" fromTop="1" />
-      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Blog/f:CommentVew.ascx" caret="183" fromTop="7" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Blog/f:CommentVew.ascx" caret="154" fromTop="7" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Blog/f:CommentVew.ascx" caret="52" fromTop="0" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Blog/f:Index.aspx" caret="516" fromTop="13" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Blog/f:Index.aspx" caret="477" fromTop="12" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Blog/f:Index.aspx" caret="53" fromTop="0" />
+      <File id="C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC/d:Repositories/f:Repository.cs" caret="593" fromTop="12" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Blog/f:Index.aspx" caret="470" fromTop="13" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Blog/f:BlogListView.ascx" caret="170" fromTop="5" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Blog/f:BlogListView.ascx" caret="124" fromTop="2" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Blog/f:Index.aspx" caret="299" fromTop="9" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Controllers/f:BlogController.cs" caret="839" fromTop="12" />
+      <File id="70CE68BE-B21D-4B0B-A4FB-021C49B0238A/d:Views/d:Blog/f:Create.aspx" caret="503" fromTop="13" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -93,13 +95,13 @@
       <Item value="response" priority="0" />
       <Item value="public" priority="21" />
       <Item value="string" priority="3" />
-      <Item value="IEnumerable" priority="1" />
+      <Item value="IEnumerable" priority="2" />
       <Item value="void" priority="9" />
       <Item value="Assert`0" priority="6" />
-      <Item value="new" priority="19" />
+      <Item value="new" priority="20" />
       <Item value="object" priority="1" />
       <Item value="BlogTest`0" priority="1" />
-      <Item value="var" priority="4" />
+      <Item value="var" priority="5" />
       <Item value="Blog`0" priority="8" />
       <Item value="Body" priority="5" />
       <Item value="Title" priority="2" />
@@ -163,7 +165,7 @@
       <Item value="repository" priority="2" />
       <Item value="select" priority="2" />
       <Item value="query" priority="3" />
-      <Item value="Html" priority="9" />
+      <Item value="Html" priority="17" />
       <Item value="foreach" priority="1" />
       <Item value="WindsorControllerFactory`0" priority="0" />
       <Item value="ConfigurationSettings" priority="0" />
@@ -175,7 +177,7 @@
       <Item value="Container`0" priority="0" />
       <Item value="IServiceProvider`0" priority="0" />
       <Item value="ISessionProvider" priority="0" />
-      <Item value="Model" priority="5" />
+      <Item value="Model" priority="10" />
       <Item value="Table`0" priority="0" />
       <Item value="l" priority="0" />
       <Item value="base" priority="4" />
@@ -198,6 +200,8 @@
       <Item value="System" priority="0" />
       <Item value="ComponentModel" priority="0" />
       <Item value="DisplayFormat" priority="0" />
+      <Item value="enumerator" priority="1" />
+      <Item value="m" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.DateTime">
       <Item value="Now" priority="0" />
@@ -223,6 +227,7 @@
       <Item value="Count`1" priority="0" />
       <Item value="Count" priority="1" />
       <Item value="Indexer" priority="0" />
+      <Item value="GetEnumerator`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:NHibernate.ISessionFactory">
       <Item value="OpenSession`0" priority="0" />
@@ -269,11 +274,11 @@
       <Item value="GetWithComments`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Core.Entities.Blog">
-      <Item value="Id" priority="10" />
-      <Item value="Title" priority="6" />
+      <Item value="Id" priority="11" />
+      <Item value="Title" priority="10" />
       <Item value="Comments" priority="4" />
       <Item value="AddComment`0" priority="2" />
-      <Item value="Body" priority="3" />
+      <Item value="Body" priority="6" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Diagnostics.Debug">
       <Item value="WriteLine`0" priority="1" />
@@ -284,7 +289,7 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
       <Item value="ToList`1" priority="1" />
-      <Item value="GetEnumerator`0" priority="0" />
+      <Item value="GetEnumerator`0" priority="1" />
       <Item value="Count`1" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
@@ -300,11 +305,16 @@
       <Item value="Model" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper`1">
-      <Item value="DisplayFor`2" priority="5" />
+      <Item value="DisplayFor`2" priority="7" />
       <Item value="DisplayForModel`0" priority="2" />
-      <Item value="ActionLink`0" priority="1" />
+      <Item value="ActionLink`0" priority="2" />
       <Item value="Encode`0" priority="0" />
-      <Item value="RenderPartial`0" priority="0" />
+      <Item value="RenderPartial`0" priority="1" />
+      <Item value="Action`0" priority="0" />
+      <Item value="BeginForm`0" priority="0" />
+      <Item value="Label`0" priority="0" />
+      <Item value="LabelFor`2" priority="0" />
+      <Item value="TextBoxFor`2" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Configuration.ConfigurationSettings">
       <Item value="AppSettings" priority="0" />
@@ -325,6 +335,10 @@
       <Item value="First`1" priority="0" />
       <Item value="ToList`1" priority="1" />
       <Item value="Take`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerator`1">
+      <Item value="MoveNext`0" priority="0" />
+      <Item value="Current" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

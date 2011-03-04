@@ -1,23 +1,11 @@
-<%@ Page Language="C#" Inherits="ViewPage<IList<Blog>>" %>
+<%@ Page Language="C#" Inherits="ViewPage<IEnumerable<Blog>>" MasterPageFile="~/Content/Master.master" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
+<%=Html.ActionLink("Add new", "Create")%>
 <%
-	
-	for (var i = 0; i < Model.Count;i++ )
-	{ %>
-	<p>
-	<%=Html.ActionLink(Model[i].Title,"Details",new{id=Model[i].Id}) %>
-	</p>
-	<p>
-	<%=Html.DisplayFor(l => l[i].Body)%>
-	</p>
-<hr />
-<%}%>
-</body>
-</html>
+	var enumerator = Model.GetEnumerator();
+	while(enumerator.MoveNext())
+ {
+ 	Html.RenderPartial("BlogListView",enumerator.Current);
+ }%>
+</asp:Content>

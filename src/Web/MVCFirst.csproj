@@ -85,7 +85,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Views\Blog\BlogListView.ascx" />
     <Content Include="Views\Blog\CommentVew.ascx" />
+    <Content Include="Views\Blog\Create.aspx" />
     <Content Include="Views\Blog\Details.aspx" />
     <Content Include="Views\Blog\Index.aspx" />
     <Content Include="Views\Home\Index.aspx" />
@@ -114,6 +116,10 @@
       <Project>{C49FBE7F-A432-4A3C-AC56-6EF46EF06FAC}</Project>
       <Name>Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\Master.master" />
+    <Content Include="Views\Blog\ViewPage1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Shared\" />

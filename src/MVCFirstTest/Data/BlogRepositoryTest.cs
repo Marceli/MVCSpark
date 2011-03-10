@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System.Configuration;
+using System.Diagnostics;
 using Core.Data;
 using Core.Entities;
 using Core.Repositories;
@@ -12,7 +13,7 @@ namespace MVCFirstTest.Data
 	{
 		private BlogRepository blogRepository;
 		private IUnitOfWork unitOfWork;
-		private ISessionProvider sessionProvider=new SqlLiteSessionProvider();
+		private ISessionProvider sessionProvider = new SqlLiteSessionProvider(ConfigurationManager.AppSettings["DBFile"]);
 
 		[SetUp]
 		public void SetUp()

@@ -33,11 +33,11 @@
   <ItemGroup>
     <Reference Include="Castle.Core, Version=2.5.1.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\vendor\Castle.Core.dll</HintPath>
+      <HintPath>..\..\lib\castle.core\dotNet35\Castle.Core.dll</HintPath>
     </Reference>
     <Reference Include="Castle.Windsor, Version=2.5.1.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\vendor\Castle.Windsor.dll</HintPath>
+      <HintPath>..\..\lib\castle.windsor\dotNet35\Castle.Windsor.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -80,7 +80,8 @@
     </Compile>
     <Compile Include="Models\GuestResponse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WinsorConfiguration.cs" />
+    <Compile Include="Installers\ControllersInstaller.cs" />
+    <Compile Include="Installers\WindsorInstaller.cs" />
     <Compile Include="WinsorControllerFactory.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -141,8 +142,7 @@
           <AutoAssignPort>False</AutoAssignPort>
           <DevelopmentServerPort>4583</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>
-          </IISUrl>
+          <IISUrl>http://localhost/MVCFirst.aspx</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

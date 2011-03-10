@@ -6,9 +6,9 @@ using NHibernate;
 using NHibernate.Linq;
 
 
-namespace Core
+namespace Core.Repositories
 {
-	public class Repository<T> where T:IIdentityable
+	public class Repository<T> : IRepository<T> where T:IIdentityable
 	{
 		protected ISession session;
 
@@ -33,5 +33,10 @@ namespace Core
 		{
 			return from entity in session.Query<T>() select entity;
 		}
+		public IEnumerable<T> GetPage(int pageNo,int pageSize)
+		{
+			return (from entity in session.Query<T>()  select entity).Take(pageSize).Skip(pageSize*pageNo);
+		}
+
 	}
 }

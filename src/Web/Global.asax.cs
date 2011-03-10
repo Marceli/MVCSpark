@@ -6,6 +6,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 using Castle.Windsor;
+using Castle.Windsor.Installer;
 using Core.Data;
 
 namespace MVCFirst
@@ -29,14 +30,23 @@ namespace MVCFirst
 
 		public WindsorContainer Container { get; private set; }
 
+
 		protected void Application_Start()
 		{
+			// here is comment with gold in it
+			// silver in it
 			AreaRegistration.RegisterAllAreas();
 			RegisterRoutes(RouteTable.Routes);
-			Container = new WinsorConfiguration().GetContainer();
+			Container = new WindsorContainer();
+			Container.Install(FromAssembly.This());
 			ControllerBuilder.Current.SetControllerFactory(new WindsorControllerFactory(Container));
 			var sessionProvider = Container.Resolve<ISessionProvider>();
 			sessionProvider.Populate();
 		}
+		protected void Application_End()
+		{
+			Container.Dispose();
+		}
+		
 	}
 }

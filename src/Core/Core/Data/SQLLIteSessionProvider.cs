@@ -13,14 +13,17 @@ namespace Core.Data
 	public class SqlLiteSessionProvider:ISessionProvider
 	{
 		private ISessionFactory factory;
+		private string dbFile;
 
-		public SqlLiteSessionProvider()
+		public SqlLiteSessionProvider(string dbFile)
 		{
+			this.dbFile = dbFile;
 			factory = Fluently.Configure().
 				Database(SQLiteConfiguration.Standard.UsingFile(GetDbFile()).ShowSql())
 				.Mappings(SetMappings)
 				.ExposeConfiguration(BuildSchema).BuildSessionFactory();
 		}
+
 
 		public void SetMappings(MappingConfiguration m)
 		{
@@ -51,8 +54,7 @@ namespace Core.Data
 
 		private string GetDbFile()
 		{
-			var dbfile = ConfigurationManager.AppSettings["DBFile"];
-			return Path.Combine(GetDataBaseDirectoryPath(),dbfile);
+			return Path.Combine(GetDataBaseDirectoryPath(),dbFile);
 		}
 
 		public ISession Session
@@ -89,6 +91,11 @@ namespace Core.Data
 			}
 			session.Close();
 
+		}
+
+		public string DbFile
+		{
+			get { return dbFile; }
 		}
 	}
 }

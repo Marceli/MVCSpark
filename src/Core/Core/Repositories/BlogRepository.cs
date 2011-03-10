@@ -8,7 +8,7 @@ using NHibernate.Linq;
 
 namespace Core.Repositories
 {
-	public class BlogRepository:Repository<Blog>
+	public class BlogRepository:Repository<Blog>, IBlogRepository
 	{
 		
 

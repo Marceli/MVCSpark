@@ -10,9 +10,9 @@ namespace MVCFirst.Controllers
 {
     public class BlogController : Controller
     {
-    	private BlogRepository repository;
+    	private IBlogRepository repository;
 
-    	public BlogController(BlogRepository repository)
+    	public BlogController(IBlogRepository repository)
 		{
 			this.repository = repository;
 		}
@@ -22,7 +22,7 @@ namespace MVCFirst.Controllers
         public ActionResult Index()
         {
         	
-			return View(repository.GetAll());
+			return View(repository.GetPage(0,10));
         }
 
         //

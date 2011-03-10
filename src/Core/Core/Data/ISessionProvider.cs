@@ -5,5 +5,6 @@ namespace Core.Data
 	{
 		ISession Session { get; }
 		void Populate();
+		string DbFile { get; }
 	}
 }

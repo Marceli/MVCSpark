@@ -8,7 +8,7 @@ namespace MVCFirstTest.Data
 		[Test]
 		public void CanObtainSession()
 		{
-			ISessionProvider sessionProvider = new SqlLiteSessionProvider("test.db");
+			ISessionProvider sessionProvider = new SqlLiteSessionProvider("SqlLiteSessionProviderTest.db");
 			Assert.IsNotNull(sessionProvider.Session);
 			
 		}

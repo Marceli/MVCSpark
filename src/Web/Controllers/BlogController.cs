@@ -22,7 +22,7 @@ namespace MVCFirst.Controllers
         public ActionResult Index()
         {
         	
-			return View(repository.GetPage(0,10));
+			return View(repository.GetPage(0,10).ToList());
         }
 
         //
@@ -85,16 +85,18 @@ namespace MVCFirst.Controllers
 				return View("Create", blog);
 			}
         }
-//
-        //
+
+        
         // GET: /Blog/Delete/5
-// 
-//        public ActionResult Delete(int id)
-//        {
-//            return View();
-//        }
-//
-        //
+ 
+        public ActionResult Delete(int id)
+        {
+			var blog = repository.Get(id);
+			return View(blog);
+            
+        }
+
+        
         // POST: /Blog/Delete/5
 //
 //        [HttpPost]

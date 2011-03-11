@@ -9,24 +9,38 @@ namespace Core.Data
 
 
 		ITransaction _transaction;
+		private ISession _session;
+
 		public UnitOfWork(ISessionProvider sessionProvider)
 		{
 
-			CurrentSession = sessionProvider.Session;
-			try
-			{
-				_transaction = CurrentSession.BeginTransaction();
-				Debug.WriteLine("New Db Session");
-			}
-			catch { }
+			_session = sessionProvider.Session;
+			
 		}
-		public ISession CurrentSession { get; private set; }
+		public ISession CurrentSession
+		{
+			get
+			{
+				if (_transaction == null)
+					try
+					{
+						_transaction = _session.BeginTransaction();
+
+					}
+					catch { }
+				return _session;
+
+			}
+		}
 
 
 		public void Dispose()
 		{
-			_transaction.Commit();
-			_transaction.Dispose();
+			if(_transaction!=null)
+			{
+				_transaction.Commit();
+				_transaction.Dispose();
+			}
 			CurrentSession.Dispose();
 		}
 		public void Commit()

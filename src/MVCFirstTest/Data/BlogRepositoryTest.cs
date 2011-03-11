@@ -13,7 +13,7 @@ namespace MVCFirstTest.Data
 	{
 		private BlogRepository blogRepository;
 		private IUnitOfWork unitOfWork;
-		private ISessionProvider sessionProvider = new SqlLiteSessionProvider(ConfigurationManager.AppSettings["DBFile"]);
+		private ISessionProvider sessionProvider = new SqlLiteSessionProvider("BlogRepositoryTest.db");
 
 		[SetUp]
 		public void SetUp()

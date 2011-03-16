@@ -46,7 +46,7 @@ namespace MVCFirstTest
         [Test]
 		public  void ForBlogRepositoryInterface_ContainerShouldReturn_BlogRepository()
 		{
-			Assert.IsNotNull(windsorContainer.Resolve<IBlogRepository>() as BlogRepository);
+			Assert.IsNotNull(windsorContainer.Resolve<IDb>() as Db);
 		}
 		[Test]
 		public void ForIUnitOfWorkInterface_ContainerShouldReturn_UnitOfWork()

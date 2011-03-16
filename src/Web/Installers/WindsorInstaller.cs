@@ -19,8 +19,9 @@ namespace MVCFirst
 				Component.For<ISessionProvider>().
 					ImplementedBy<SqlLiteSessionProvider>().
 					DependsOn(new {dbFile = ConfigurationManager.AppSettings["DBFile"]}).LifeStyle.Singleton);
-			container.Register(AllTypes.FromAssembly(typeof (BlogRepository).Assembly).
-				                            Where(t => t.Namespace == "Core.Repositories" && t.IsClass).WithService.DefaultInterface().Configure(c=>c.LifeStyle.Transient));
+//			container.Register(AllTypes.FromAssembly(typeof (BlogRepository).Assembly).
+//				                            Where(t => t.Namespace == "Core.Repositories" && t.IsClass).WithService.DefaultInterface().Configure(c=>c.LifeStyle.Transient));
+			container.Register(Component.For<IDb>().ImplementedBy<Db>().LifeStyle.Transient);
 			var xmlInterpreter = new XmlInterpreter();
 			xmlInterpreter.ProcessResource(new ConfigResource("castle"),store);
 

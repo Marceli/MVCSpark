@@ -5,13 +5,14 @@ using Core.Entities;
 using Core.Repositories;
 using NUnit.Framework;
 using System.Linq;
+using NHibernate.Linq;
 
 namespace MVCFirstTest.Data
 {
 	[TestFixture]
 	public class BlogRepositoryTest
 	{
-		private BlogRepository blogRepository;
+		private IDb blogRepository;
 		private IUnitOfWork unitOfWork;
 		private ISessionProvider sessionProvider = new SqlLiteSessionProvider("BlogRepositoryTest.db");
 
@@ -19,7 +20,7 @@ namespace MVCFirstTest.Data
 		public void SetUp()
 		{
 			unitOfWork = new UnitOfWork(sessionProvider);
-			blogRepository = new BlogRepository(unitOfWork);
+			blogRepository = new Db(unitOfWork);
 		}
 
 		[TearDown]
@@ -37,9 +38,9 @@ namespace MVCFirstTest.Data
 		public void CanSaveAndReadBlog()
 		{
 			var blog = new Blog{Title = "title", Body = "Body"};
-			blogRepository.Save(blog);
+			blogRepository.Session.Save(blog);
 			reset();
-			var fromDb=blogRepository.Get(blog.Id);
+			var fromDb=blogRepository.Blogs.Single(b=>b.Id==blog.Id);
 			Assert.AreEqual(blog.Title,fromDb.Title);
 		}
 		[Test]
@@ -47,10 +48,10 @@ namespace MVCFirstTest.Data
 		{
 			var blog = new Blog { Title = "title", Body = "Body" };
 			blog.AddComment(new Comment(){Author = "Marcel",Body="Body"});
-			blogRepository.Save(blog);
+			blogRepository.Session.Save(blog);
 			reset();
 			Debug.WriteLine("Before Getting Blog");
-			var fromDb = blogRepository.Get(blog.Id);
+			var fromDb = blogRepository.Blogs.Single(b=>b.Id==blog.Id);
 			Debug.WriteLine("Before reading Blog property");
 
 			Assert.AreEqual("title",fromDb.Title);
@@ -63,10 +64,11 @@ namespace MVCFirstTest.Data
 		{
 			var blog = new Blog { Title = "title", Body = "Body" };
 			blog.AddComment(new Comment() { Author = "Marcel", Body = "Body" });
-			blogRepository.Save(blog);
+			blogRepository.Session.Save(blog);
 			reset();
 			Debug.WriteLine("Before Getting Blog");
-			var fromDb = blogRepository.GetWithComments(blog.Id);
+			var fromDb = blogRepository.Blogs.Where(b=>b.Id==blog.Id).Fetch(b => b.Comments).ToList()[0];
+			//var fromDb = blogRepository.GetWithComments(blog.Id);
 			Debug.WriteLine("Before reading Blog property");
 
 			Assert.AreEqual("title", fromDb.Title);

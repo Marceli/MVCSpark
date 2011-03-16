@@ -39,6 +39,14 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\lib\castle.windsor\dotNet35\Castle.Windsor.dll</HintPath>
     </Reference>
+    <Reference Include="NHibernate, Version=3.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\nhibernate\Required_Bins\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.Linq, Version=1.1.0.1001, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\nhibernate\Required_Bins\NHibernate.Linq.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.ComponentModel.DataAnnotations">
@@ -120,6 +128,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Master.master" />
+    <Content Include="Views\Blog\Delete.aspx" />
     <Content Include="Views\Blog\ViewPage1.aspx" />
     <Content Include="Views\Home\Details.aspx" />
     <Content Include="Views\Shared\DisplayTemplates\Blog.ascx" />

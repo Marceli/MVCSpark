@@ -84,10 +84,7 @@
     <Compile Include="Data\ISessionProvider.cs" />
     <Compile Include="Entities\IIdentityable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositories\BlogRepository.cs" />
-    <Compile Include="Repositories\IBlogRepository.cs" />
-    <Compile Include="Repositories\IRepository.cs" />
-    <Compile Include="Repositories\Repository.cs" />
+    <Compile Include="Repositories\db.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

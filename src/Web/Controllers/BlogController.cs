@@ -5,16 +5,17 @@ using System.Web;
 using System.Web.Mvc;
 using Core.Entities;
 using Core.Repositories;
+using NHibernate.Linq;
 
 namespace MVCFirst.Controllers
 {
     public class BlogController : Controller
     {
-    	private IBlogRepository repository;
+		private IDb db;
 
-    	public BlogController(IBlogRepository repository)
+    	public BlogController(IDb db)
 		{
-			this.repository = repository;
+			this.db = db;
 		}
         //
         // GET: /Blog/
@@ -22,7 +23,7 @@ namespace MVCFirst.Controllers
         public ActionResult Index()
         {
         	
-			return View(repository.GetPage(0,10).ToList());
+			return View(db.Blogs.Take(10).Skip(0).ToList());
         }
 
         //
@@ -30,7 +31,7 @@ namespace MVCFirst.Controllers
 
         public ActionResult Details(int id)
         {
-        	var blog = repository.Get(id);
+        	var blog = db.Blogs.Where(b => b.Id == id).Fetch(b => b.Comments).ToList()[0];
         	return View(blog);
         }
 
@@ -50,7 +51,7 @@ namespace MVCFirst.Controllers
         {
             try
             {
-				repository.Save(blog);
+				db.Session.Save(blog);
                 return RedirectToAction("Index");
             }
             catch
@@ -64,7 +65,7 @@ namespace MVCFirst.Controllers
 
 		public ActionResult Edit(int id)
 		{
-			var blog = repository.Get(id);
+			var blog = db.Blogs.Where(b=>b.Id==id).Fetch(b=>b.Comments).ToList()[0];
 			return View("Create",blog);
 		}
 
@@ -76,7 +77,7 @@ namespace MVCFirst.Controllers
         {
             try
             {
-				repository.Save(blog);
+				db.Session.Save(blog);
 				TempData["message"] = blog.Title + " has been saved.";
                 return RedirectToAction("Index");
             }
@@ -91,7 +92,7 @@ namespace MVCFirst.Controllers
  
         public ActionResult Delete(int id)
         {
-			var blog = repository.Get(id);
+        	var blog = db.Blogs.Where(b => b.Id == id).Fetch(b => b.Comments).ToList()[0];
 			return View(blog);
             
         }
